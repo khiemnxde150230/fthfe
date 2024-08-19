@@ -1,0 +1,34 @@
+.create-event-container {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .theme-image-uploader {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .uploaded-theme-image {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .ant-upload-drag-icon,
+  .ant-upload-text,
+  .ant-upload-hint {
+    color: #EC6C21;
+  }
+  
+  .create-event-button {
+    background-color: #EC6C21;
+    border-color: #EC6C21;
+  }
+  
+  .create-event-button:hover {
+    background-color: #d55b1d;
+    border-color: #d55b1d;
+  }
+  

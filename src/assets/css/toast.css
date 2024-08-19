@@ -1,0 +1,11 @@
+.Toastify__toast {
+    font-size: 18px;
+    max-width: 600px;
+    max-height: 200px;
+  }
+  
+  .Toastify__toast-body {
+    padding: 20px;
+    overflow: auto;
+  }
+  

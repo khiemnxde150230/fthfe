@@ -1,0 +1,30 @@
+/* Login.css */
+.container {
+    background-color: #f8f9fa;
+  }
+  
+  .button-primary {
+    background-color: #ec6c21;
+    border-color: #ec6c21;
+  }
+  
+  .button-primary:hover {
+    background-color: #81360b !important;
+    border-color: #81360b !important;
+  }
+  
+  .link-register {
+    color: var(--secondary-color);
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 7px;
+  }
+  
+  .link-forgot-password {
+    color: #ec6c21;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.1rem;
+  }
+  

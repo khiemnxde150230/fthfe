@@ -1,0 +1,15 @@
+.news-popover-content {
+    width: 300px;
+  }
+  
+  .news-popover-content .cover-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .news-title {
+    color: blue;
+    cursor: pointer;
+  }
+  

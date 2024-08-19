@@ -1,0 +1,21 @@
+/* RateEvent.css */
+.rate-event-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f2f5; /* Light background color for the container */
+  }
+  
+  .rate-event-content {
+    width: 100%;
+    max-width: 500px;
+    background-color: white; /* White background for the content */
+    padding: 20px; /* Padding inside the content */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for better visual */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  }
+  

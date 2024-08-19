@@ -1,0 +1,190 @@
+.forumAdminWrapper,
+.forumAdminContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.forumAdminMain {
+  padding: 20px;
+  flex-grow: 1;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  max-width: 94%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.forumAdminControls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.forumAdminFilters {
+  display: flex;
+  gap: 10px;
+}
+
+.filterBtn {
+  padding: 10px 15px;
+  border: none;
+  background-color: #e9ecef;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  color: black;
+}
+
+.filterBtn.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.forumAdminSearch {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.forumAdminSearch input {
+  display: block;
+  width: 200px;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.825rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  appearance: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-clip: padding-box;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.forumAdminPosts {
+  display: grid;
+  gap: 20px;
+}
+
+.forumPostCard {
+  background-color: white;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #212529;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.forumPostCard:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.postHeader h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #343a40;
+}
+
+.postHeader span {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-left: 10px;
+}
+
+.event {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin-left: auto;
+}
+
+.content {
+  margin-top: 15px;
+  color: #495057;
+  line-height: 1.6;
+}
+
+.forumAdminPagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.pageBtn {
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: 1px solid #ced4da;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.pageBtn.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.postActions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.approveBtn,
+.rejectBtn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.approveBtn {
+  background-color: #28a745;
+  color: white;
+  margin-right: 10px;
+}
+
+.rejectBtn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.approveBtn:hover,
+.rejectBtn:hover {
+  opacity: 0.9;
+}

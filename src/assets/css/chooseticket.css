@@ -1,0 +1,137 @@
+.choose-ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  
+  .ticket-header {
+    width: 100%;
+    text-align: center; /* Center align the header text */
+    margin-bottom: 20px;
+  }
+  
+  .centered-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .containerTicket {
+    display: flex;
+    width: 100%;
+    max-width: 1200px; /* Adjust max-width as needed */
+  }
+  
+  .ticket-list {
+    width: 68%;
+    margin-right: 2%;
+  }
+  
+  .ticket-summary {
+    width: 30%;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .ticket-row.header {
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .ticket-type,
+  .ticket-quantity,
+  .price-row span {
+    display: block;
+  }
+  
+  .ticket-quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ticket-quantity button {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #fff; /* White button text */
+  }
+  
+  .ticket-quantity span {
+    margin: 0 10px;
+  }
+  
+  .ticket-prices {
+    margin-top: 20px;
+  }
+  
+  .price-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .select-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    cursor: not-allowed; 
+  }
+  
+  .select-button:hover {
+    background-color: #e64a19;
+  }
+  
+  .back-link {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  
+  .ticket-header h1 {
+    margin: 0;
+  }
+  
+  .quantity-info {
+    display: flex;
+    margin: auto;
+  }
+
+  .note {
+    color: #EC6C21;
+  }
+
+  .sold-out {
+    background-color: red; 
+  color: white; 
+  border: none; 
+  padding: 4px 8px; 
+  border-radius: 12px; 
+  font-size: 12px; 
+  font-weight: bold; 
+  cursor: not-allowed; 
+  display: block;
+  margin-top: 4px;
+  }
+

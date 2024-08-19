@@ -1,0 +1,5 @@
+/* CustomForm.css */
+.custom-input::placeholder {
+    color: #555; /* Màu chữ placeholder là màu đen */
+  }
+  
